@@ -1,0 +1,237 @@
+html {
+    display: -webkit-flex;
+    display: flex;
+    background-color: rgb(241 242 249);
+    flex-flow: column nowrap;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+html div {
+    margin: 10px;
+}
+
+header {
+    background-color: white;
+    border-radius: 15px;
+}
+
+.banner {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: flex-end;
+    align-items: flex-end;
+    flex-flow: row nowrap;
+    align-content: stretch;
+    height: 200px;
+    padding-bottom: 5px;
+}
+
+.welcome {
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+    align-content: center;
+    margin-right: auto;
+    margin-left: 50px;
+    margin-bottom: 0px;
+}
+
+.logo {
+    font-family: monospace;
+    font-size: 50px;
+}
+
+.ad {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.nav {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: flex-end;
+    align-items: flex-end;
+    flex-flow: row nowrap;
+    align-items: stretch;
+    padding-right: 5px;
+}
+
+.button {
+    background-color: skyblue;
+    border: none;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    font-family: cursive, sans-serif;
+    border-radius: 15px 45px;
+}
+
+.button:active {
+    background-color: rgb(255, 152, 146);
+}
+
+.button:hover {
+    background-color: rgb(255, 152, 146);
+    color: rgba(0, 0, 0, 1);
+}
+
+body {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: flex-end;
+    align-items: flex-end;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.main {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+}
+
+.searchbox {
+    margin: 10px 10px 10px 10px;
+    border-radius: 15px;
+    background-color: white;
+    opacity: 100%;
+}
+
+input[type=text] {
+    width: 260px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 20px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 520px;
+}
+
+.selectors {
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    border-radius: 15px;
+    background-color: white;
+    padding: 20px 0px 20px 0px;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+select {
+    padding: 12px 20px;
+    margin: 8px 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.boxes {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: flex-end;
+    align-items: stretch;
+    flex-flow: column nowrap;
+    align-content: stretch;
+    justify-content: space-around;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.boxes div {
+    -webkit-flex: 1 1 250px;
+    flex: 1 1 250px;
+    margin: 10px;
+    border-radius: 15px;
+    padding: 10px 10px 0 10px;
+    background-color: white;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.artinfo {
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.boxes .more {
+    margin-top: auto;
+}
+
+.page{
+    border-radius: 15px;
+    padding: 10px 10px 10px 10px;
+    background-color: white;
+}
+
+.pages {
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+}
+
+.pages li{
+    display: inline;
+}
+
+.pages li a {
+    color: black;
+    margin: 16px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid black;
+    margin: 4px 4px;
+}
+
+.pages li a.active {
+    background-color: green;
+    color: white;
+    border: 1px solid green;
+}
+
+.pages li a:hover:not(.active) {background-color: #ddd;}
+
+footer {
+    align-self: stretch;
+}
+
+.end {
+    position: relative;
+    width: 100%;
+    float: left;
+    bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.introduction {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    margin: 10px 10px 10px 10px;
+    border-radius: 15px;
+    padding: 10px 10px 10px 10px;
+    background-color: white;
+}

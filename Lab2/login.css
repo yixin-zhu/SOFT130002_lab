@@ -1,0 +1,201 @@
+html {
+    display: -webkit-flex;
+    display: flex;
+    background-color: rgb(241 242 249);
+    flex-flow: column nowrap;
+    align-items:center;
+    justify-content: space-around;
+}
+
+html div {
+    margin: 10px;
+}
+
+header {
+    background-color: white;
+    border-radius: 15px;
+}
+
+.banner {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: flex-end;
+    align-items: flex-end;
+    flex-flow: row nowrap;
+    align-content: stretch;
+    height: 200px;
+    padding-bottom: 5px;
+}
+
+.welcome {
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+    align-content: center;
+    margin-right: auto;
+    margin-left: 50px;
+    margin-bottom: 0px;
+}
+
+.logo {
+    font-family: monospace;
+    font-size: 50px;
+}
+
+.logo2 {
+    font-family: monospace;
+    font-size: 50px;
+}
+
+.ad {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.nav {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: flex-end;
+    align-items: flex-end;
+    flex-flow: row nowrap;
+    align-items: stretch;
+    padding-right: 5px;
+}
+
+.button {
+    background-color: skyblue;
+    border: none;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    font-family: cursive, sans-serif;
+    border-radius: 15px 45px;
+    margin: 20px;
+}
+
+.button:active {
+    background-color: rgb(255, 152, 146);
+}
+
+.button:hover {
+    background-color: rgb(255, 152, 146);
+    color: rgba(0, 0, 0, 1);
+}
+
+body {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+}
+
+.main {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: strentch;
+    align-items:stretch;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+}
+
+.main div {
+    -webkit-flex: 1 1 250px;
+    flex: 1 1 250px;
+    margin: 10px;
+    border-radius: 15px;
+    padding: 10px 10px 10px 10px;
+    background-color: white;
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.help {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+}
+
+.direction{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+.customer{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items:center;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+}
+
+.tip{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin: 10px 0px 0px 0px;
+}
+
+#username{
+    margin: 0px 0px 20px 0px;
+}
+
+#password{
+    margin: 0px 0px 20px 0px;
+}
+
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=password] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+footer{
+    align-self: stretch;
+}
+
+.end {
+    position: relative;
+    width: 100%;
+    float: left;
+    bottom: 0px;
+    margin-bottom: 0px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 15px;
+    padding: 10px 10px 10px 10px;
+    background-color: white;
+}
+
+.introduction {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+
+}

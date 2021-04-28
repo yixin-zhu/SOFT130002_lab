@@ -1,0 +1,124 @@
+header {
+    white-space: nowrap;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    float: left;
+    list-style-type: none;
+}
+
+.leader{
+    position: absolute;
+    right: 0px;
+    top:0px;
+    width: 400px;
+    border: 3px white;
+    padding: 10px;
+}
+
+li {
+    float: left;
+    position: relative;
+    list-style-type: none;
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    
+}
+
+li a:hover {
+    background-color: grey;
+}
+
+input {
+    width: 20%;
+}
+
+
+body {
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 2200px;
+    width: 90%;
+}
+
+.tail{bottom: 0px;}
+
+.left {
+    width: 33%;
+    float: left;
+    height: 60%;
+}
+
+.main {
+    width: 33%;
+    float: left;
+    height:60%;
+
+}
+
+.right {
+    width: 33%;
+    float: left;
+    height: 60%;
+}
+
+.end{
+    position:relative;
+    width: 100%;
+    float: left;
+    bottom: 0px;
+    margin-bottom: 0px;
+}
+
+footer {
+    width:100%;
+    position: relative;
+    bottom: 0px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    height: 80px;
+    line-height: 10ex;
+}
+
+button {
+    background-color: skyblue; 
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+.pic{
+    width: 33%;
+    margin-left: 100px;
+    margin-top: 30px;
+    height: 60%;
+    float: left;
+}
+
+
+.intro{
+    width: 50%;
+    margin-left: 100px;
+    margin-top: 30px;
+    height: 60%;
+    float: left;
+}
+
+.show{
+    height: 1200px;
+}
